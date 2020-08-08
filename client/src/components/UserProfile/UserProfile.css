@@ -1,0 +1,260 @@
+
+
+
+
+.user-profile-container{
+    background-color: rgb(241, 241, 241);
+    padding-top: 59px;
+    display: flex;
+}
+
+.user-profile-left{
+    background-color: rgb(2,44,82);
+    width: 15vw;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+
+
+.profile-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 25px 0px;
+}
+
+.user-profile-left ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 95%;
+}
+
+.user-profile-left ul li{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.user-profile-left ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.user-profile-left ul li i{
+    margin-right: 25px;
+}
+
+.profile-make-appointment{
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+    color: black;
+}
+
+.link-make-appo{
+    color: black !important;
+}
+
+
+
+.user-profile-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding-top: 60px;
+    width: 85vw;
+
+    overflow-y: auto;
+}
+
+#user-profile-info{
+    font-size: 19px;
+}
+
+.user-profile-box{
+    width: 90%;
+    margin-bottom: 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding:25px;
+
+}
+
+.profile-underline{
+    width: 150px;
+    border: 3px solid rgb(18, 74, 126);
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.user-profile-info-div p{
+    margin: 10px 0px;
+    font-weight: bold;
+    margin-right: 5px;
+
+}
+
+.user-profile-info-div > div{
+    display: flex;
+    align-items: center;
+}
+
+.user-profile-appointment{
+    margin-top: 20px;
+    color: white;
+    max-width: 500px;
+}
+
+.user-profile-appointment-flex{
+    display: flex;
+    border: 1px solid white;
+
+}
+
+.user-profile-appointment-time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(45, 207, 67);
+
+    margin-left: auto;
+    padding: 5px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 17px;
+
+}
+
+.user-profile-appointment-btns{
+    padding: 10px;
+    background-color: rgb(18, 74, 126);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+}
+
+.user-profile-appointment-time p{
+    margin: 2px 0px;
+}
+
+
+.user-profile-appointment button{
+    height: 25px;
+    width: 100px;
+    border:none;
+    border-radius: 5px;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+    margin-top: 19px;
+    margin-right: 10px; 
+}
+
+#profile-btn-change:hover{
+    background-color: rgb(197, 192, 192);
+}
+
+.profile-btn-color-red{
+    background-color: rgb(236, 49, 49);
+    color: white;
+}
+
+.profile-btn-color-red:hover{
+    background-color: rgb(236, 97, 97);
+}
+
+
+#user-profile-updateinfo p{
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+#user-profile-updateinfo input{
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(226, 224, 224);
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-left: 10px;
+
+}
+
+.profile-update-btn{
+    height: 32px;
+    width: 150px;
+    border:none;
+    border-radius: 10px;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: rgb(72, 143, 209);
+    color: white;
+
+}
+
+#user-profile-delete-acc p{
+    font-size: 18px;
+    width: 50%;
+}
+
+#profile-delete-btn{
+    height: 32px;
+    width: 150px;
+    border:none;
+    border-radius: 10px;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: rgb(223, 83, 83);
+    color: white;
+}
+
+.profile-mr-bottom{
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 1480px){
+
+    .user-profile-left{
+        width: 250px;
+    }
+}
+
+
+@media only screen and (max-width: 730px){
+
+
+    .user-profile-left{width: 230px;}
+
+    .user-profile-left ul li a{font-size: 14px;}
+    
+    #user-profile-updateinfo input{width: 90%;}
+
+    #user-profile-delete-acc p{
+        font-size: 18px;
+        width: 90%;
+    }
+
+}

@@ -1,0 +1,31 @@
+
+.td-color{
+    color: rgb(65, 117, 202);
+    font-weight: bold;
+
+}
+
+.td-flex-icons{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+
+}
+
+.td-flex-icons i{
+    margin-right: 10px;
+}
+
+.td-flex-icons a{
+    color: rgb(65, 117, 202);
+    display: inline-block;
+}
+
+.td-flex-icons a:hover{
+    color: rgb(111, 148, 207);
+}
+
+.td-empty{
+
+    color: rgb(109, 108, 108);
+}

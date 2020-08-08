@@ -1,0 +1,51 @@
+
+
+.appointments-list{
+    display: inline;
+}
+
+.appointments-list table{
+    width: 100%;
+}
+
+.left-th{
+    background-color: rgb(51, 51, 50);
+    height: 35px;
+    padding: 10px;
+    color: white;
+}
+
+#td-white{
+    background-color: white;
+}
+
+.appointments-list td{
+    padding: 10px;
+}
+
+.appointments-list tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+table tr{
+    transition: 0.2s all ease-in-out;
+}
+
+.appointments-list tr:hover {background-color: #ddd;}
+
+.appointments-list h1,h3{
+    /* margin: 20px; */
+    text-align: center;
+}
+
+.admin-profile-links-container{
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.admin-profile-link{
+    margin: 0px 6px;
+    color: rgb(8, 121, 187);
+}
+
+

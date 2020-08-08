@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.mr-bottom{
+  margin-bottom: 6px;
+}
+
+.text-center{
+  text-align: center;
+}
+

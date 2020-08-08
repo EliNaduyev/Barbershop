@@ -1,0 +1,8 @@
+
+.tabs{
+    background-image: linear-gradient(to right, rgb(47, 50, 53) , rgb(107, 111, 114));
+}
+
+.tab-panel{
+    height: 70vh;
+}

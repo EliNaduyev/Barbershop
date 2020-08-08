@@ -1,0 +1,52 @@
+
+.login-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 700px;
+    width: 900px; 
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -46%);
+}
+
+
+.new-account-login{
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.new-account-link{
+    color: rgb(0, 121, 168);
+    cursor: pointer;
+    transition: ease-in-out all 0.3s;
+}
+
+.new-account-link:hover{
+    color: rgb(64, 161, 199);
+}
+
+.login-div{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.login-loading{
+    width: 90px;
+    height: 90px;
+    display: none;
+}
+
+
+@media only screen and (max-width: 950px){
+
+    .login-container{
+        height: 80%;
+        width: 90%;
+    }
+
+}

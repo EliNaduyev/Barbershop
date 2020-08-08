@@ -1,0 +1,71 @@
+
+.admin{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+}
+
+.admin-container{
+    height: 100vh;
+}
+
+.admin-tabs{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-46%);
+    width: 80%;
+}
+
+@media only screen and (max-width: 900px){
+
+    .admin-tabs{
+
+        width: 95%;
+    }
+
+    table td,th{
+        font-size: 13px;
+    }
+
+    .appointments-list h1{
+        margin: 20px;
+        font-size: 21px;
+    }
+
+}
+
+@media only screen and (max-width: 640px){
+
+    .admin-tabs{
+
+        width: 99%;
+    }
+
+    table td,th{
+        font-size: 10px;
+    }
+
+    .appointments-list h1{
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    .btn-icon{
+        padding: 0px;
+    }
+
+    .btn-icon{
+        width: 40%;
+        height: 90%;
+    }
+
+    .user-list h1{
+        font-size: 21px;
+    }
+
+    .user-list table tr td{
+        font-size: 14px;
+    }
+}

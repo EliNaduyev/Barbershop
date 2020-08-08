@@ -1,0 +1,225 @@
+
+
+
+.navbar{
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid rgb(255, 255, 255,0.5);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 30px;
+    background-color: rgb(0, 0, 0,0.6);
+    z-index: 99;
+}
+
+.navbar-logo{
+    color: rgb(235, 234, 229);
+    padding: 5px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    transition: ease-in-out all 0.3s;
+}
+
+.navbar-logo:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.navbar-ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 100px;
+}
+
+.nav-items{
+    margin: 0 10px;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: ease-in-out all 0.3s;
+    display: block;
+}
+
+.links:hover{
+    transform:scale(1.1);
+    color: rgb(199, 181, 78);
+}
+
+.date-and-phone{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.date-and-phone label:hover{
+    cursor: pointer;
+}
+
+.date-and-phone i{
+  margin-right: 5px;
+}
+
+.nav-date{
+    margin-left: 20px;
+    /* color: rgb(112, 195, 112); */
+    color: rgb(207, 191, 117);
+
+}
+
+.login-reg-links{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+}
+
+.login-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 3px;
+    background-color: white;
+    color: rgb(83, 78, 3);
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.log-reg-separator{
+    color: white;
+    margin: 0 8px;
+}
+
+.user-loggedIn{
+    padding: 5px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    font-size: 18px;
+    margin-right: 30px;
+    display: none;
+}
+
+.user-loggedIn button{
+    margin-left: 10px;
+    padding: 5px;
+    background-color: indianred;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    height: 25px;
+    color: white;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.user-loggedIn button:hover{
+    background-color: rgb(189, 61, 61);
+}
+
+.cp{
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: rgb(31, 174, 199);
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    color: white;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+    display: none; 
+}
+
+.cp:hover{
+    color: white;
+}
+
+.up{
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: rgb(31, 174, 199);
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    color: white;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+    display: none;
+}
+
+.up:hover{
+    color: white;
+}
+
+.humburger{
+    padding: 8px;
+    height: 30px;
+    width: 45px;
+    transition: 0.3s all ease-in-out;
+    margin-left: auto;
+    display: none;
+    cursor: pointer;
+}
+
+.humburger-active{
+    border: 2px solid rgb(127, 209, 233)!important;
+}
+
+.line{
+    margin-bottom: 4px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+
+/* --------------side navbar ----------- */
+
+
+
+
+
+@media only screen and (max-width: 1350px){
+
+    .date-and-phone{
+        display: none;
+    }
+
+    .disappear{
+        display: none;
+    }
+
+    .humburger{
+        display: block;
+        
+    }
+
+    #user-profile{
+        margin: 0px 0px;
+
+    }
+
+    #control-panel{
+        margin: 0px 0px;
+    }
+}
+
+
+@media only screen and (max-width: 800px){
+
+    .navbar-ul{
+        display: none;
+  
+    }
+}

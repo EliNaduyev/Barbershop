@@ -1,0 +1,116 @@
+
+.register{
+    height:100vh;
+    background-color: rgb(241, 241, 241);
+
+}
+
+.register-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 700px;
+    width: 900px; 
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -46%);
+}
+
+.register-img{
+    background-image: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)), url("../../assets/reg_img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.register-form{
+    /* padding: 30px 0px; */
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.register-info h1{
+   margin-bottom: 30px;
+   color: rgb(68,68,68);
+}
+
+.register-info img{
+    height: 140px;
+    width: 150px;
+}
+
+.form-container{
+    width: 80%;
+}
+
+.form-container-input{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(221, 214, 214);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.form-container p{
+    margin-bottom: 5px;
+}
+
+.reg-btn-div{
+    display: flex;
+    justify-content: center;
+}
+
+.reg-submit{
+    height: 30px;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    margin-top: 10px;
+    transition: all ease-in-out 0.3s;
+}
+
+.reg-submit:hover{
+    background-color: rgb(32, 32, 32);
+    cursor: pointer;
+}
+
+.register-loading{
+    width: 90px;
+    height: 90px;
+    display: none;
+}
+
+
+@media only screen and (max-width: 950px){
+
+    .register-container{
+        grid-template-columns: 60% 40%;
+        height: 80%;
+        width: 90%;
+  
+    }
+
+  
+
+
+
+}

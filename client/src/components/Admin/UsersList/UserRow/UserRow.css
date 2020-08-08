@@ -1,0 +1,37 @@
+
+.btn-icon{
+    padding: 10px;
+}
+
+.btn-icon{
+    width: 50%;
+    transition: all ease-in-out 0.3s;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.bg-action-white{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-icon:hover{
+    background-color: rgb(163, 162, 162);
+}
+
+.btn-blue-color{
+    background-color: rgb(96, 195, 235);
+}
+
+.btn-red-color{
+    background-color: rgb(192, 96, 96);
+
+}
+
+.bg-action-white{
+    /* background-color: white; */
+}
+

@@ -1,0 +1,111 @@
+
+
+.hours{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../assets/hours_img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hours-container{
+    width: 95%;
+}
+
+.hours-container h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+.hours-flex{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    flex-wrap: wrap ;
+
+}
+
+.hours-box{
+    height: 200px;
+    width: 210px;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 18px;
+    transition: all ease-in-out 0.3s;
+    font-size: 17px;
+}
+
+.hours-box:hover{
+    transform: translateY(-25px);
+}
+
+.hours-box h2{
+    margin-bottom: 10px;
+}
+
+.hours-box p{
+    font-weight: bold;
+    text-align: center;
+}
+
+.hours-btn{
+    width: 150px;
+    height:35px;
+    background-color: rgb(161, 136, 21);
+    border-radius: 20px;
+    border:none;
+    color: white;
+    transition: all ease-in-out 0.3s;
+}
+
+.hours-btn:hover{
+    cursor: pointer;
+    background-color: rgb(128, 106, 10);
+}
+
+.hours-btn-div{
+    display: flex;
+    justify-content: center;
+}
+
+.not-active-day{
+    border: 3px solid white;
+
+}
+
+.active-day{
+    border: 4px solid rgb(46, 155, 55);
+}
+
+
+
+@media only screen and (max-width: 950px){
+  
+
+    .hours{
+        padding: 50px 0px;
+    }
+
+    .hours-box{
+        height: 150px;
+        width: 150px;
+        margin: 20px 20px;
+    }
+
+    .hours-container{
+        width: 100%;
+    }
+}

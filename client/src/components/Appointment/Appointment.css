@@ -1,0 +1,123 @@
+
+.appointment-container{
+    padding-top: 60px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../../assets/appointment_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+.appointment-form{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    background-color: rgb(255, 255, 255);
+    z-index: 99;
+    padding:30px;
+    border-radius: 10px;
+}
+
+.date-picker{
+    padding:7px 5px;
+    width: 100%;
+    color: rgb(104, 102, 102);
+}
+
+.time-picker{
+    width: 100%;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 5px;
+}
+
+.appointment-inner-container{
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+}
+
+.appointment-inner-container p{
+    margin-bottom: 5px;
+   
+}
+
+.phone-input{
+    padding:15px 5px;
+    height: 30px;
+    width: 100%;
+
+}
+
+.appointment-form h2{
+    margin-bottom: 15px;
+    color: rgb(68, 68, 68);
+}
+
+.appointment-form h1{
+    color: rgb(68, 68, 68);
+
+    margin-bottom: 15px;
+}
+
+.appointment-btn{
+    height: 40px;
+    width: 100%;
+    padding:5px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    transition: ease-in-out all 0.3s;
+}
+
+.appointment-btn:hover{
+    cursor: pointer;
+    background-color: rgb(90, 90, 90);
+}
+
+.appointment-data{
+    /* border: 1px solid black; */
+    margin: 15px 0px;
+    background-color: rgb(69, 159, 233);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+
+    transition: 0.5s all ease-in-out;
+    opacity: 0;
+    transform: translateY(30px);
+    
+}
+
+.appointment-data-show{
+    opacity: 1;
+    transform: translateY(0px);
+    
+}
+
+.appointment-data h3{
+    margin-bottom: 10px;
+    color: black;
+
+}
+
+.appointment-data p{
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: black;
+
+}
+
+.appointment-data span{
+   
+    color: white;
+
+}
+
+.red-astrix{
+    color: rgb(219, 15, 15);
+}
+

@@ -1,0 +1,17 @@
+
+.error-msg{
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(202, 79, 79);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    transition: all ease-in-out 0.3s;
+    margin-bottom: 15px;
+}
+
+.error-msg span{
+    margin-left: 10px;
+}
+
