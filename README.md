@@ -4,7 +4,9 @@ In the system there are 2 type of users, regular users and administrators.
 After registration and logging process users will be able to schedule, change and cancel their appointments on their profile page. 
 Administrators have a control panel where they can manage all scheduled appointments and users in the system.
 <br/>
+
 **Live Demo (not mobile friendly):** https://barber-appointments.netlify.app/
+
 <img src="./readme_imge.png"/>
 
 ### Technologies
