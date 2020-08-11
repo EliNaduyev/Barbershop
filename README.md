@@ -5,7 +5,7 @@ After registration and logging process users will be able to schedule, change an
 Administrators have a control panel where they can manage all scheduled appointments and users in the system.
 <br/>
 
-**Live Demo (not mobile friendly):** https://barber-appointments.netlify.app/
+**Live Demo:** https://barber-appointments.netlify.app/
 
 <img src="./readme_imge.png"/>
 
