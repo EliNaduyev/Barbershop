@@ -9,3 +9,26 @@ Administrators have a control panel where they can manage all scheduled appointm
 * NodeJS & Express at the server side
 * MongoDB & Mongoose
 * Asynchronous tasks, Axios
+
+### How to install
+Clone the repository:
+```
+git clone https://github.com/EliNaduyev/Barbershop.git
+```
+Enter the clonned folder:
+```
+cd Barbershop
+```
+Enter the client folder:
+```
+cd client
+```
+Install the dependencies:
+```
+npm install
+```
+Run the application:
+```
+npm start
+```
+Local app should open automatically, if it is not, open the browser at http://localhost:3000/
